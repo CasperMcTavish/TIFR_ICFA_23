@@ -1,0 +1,126 @@
+- three families of quarks and leptons
+
+identical gauge structure within each family
+
+
+- Role of flavour physics in building up the SM
+
+\tau - \theta puzzle: parity violation
+
+cabibbo angle: weak coupling universality x quark mixing
+
+GIM mechanism: no FCNC at tree level, charm quark
+
+CKM paradigm: (at least) three quark families
+
+Large B-\hat{B} mixing: heavy top quark (box)
+
+Rate of radioactive B decay: top quark mass (penguin)
+
+
+- flavour struckure of SM
+
+discrete symmetries of SM
+
+measuring CP violation in decay and mixing
+
+quark-mixing (CKM) paradigm
+
+flavour tests of the CKM paradigm
+
+flavour in lepton sector
+
+
+- Discrete symmetries
+
+accidental symms:
+	lepton number
+	baryon number
+
+broken symms:
+	Parity (P)
+	Charge conjugation (C)
+	Time reversal (T)
+	Charge-Parity (CP)
+
+unbroken symms:
+	charge-parity-time (CPT)
+
+
+- violation of parity
+
+\tau - \theta puzzle: particles with same mass and lifetime decay to \pi \pi and \pi \pi \pi
+
+theoretical possibility that parity is broken (mirror world != real world)
+
+Wu and Friedman-Telegdi show this to be true
+
+
+- Universality of weak couplings: cabibbo angle
+
+First indication of flavour mixing due to relation between neutron, kaon and muon decay
+
+
+- Suppression of flavour-changing neutral currents
+
+K\_L \rightarrow \mu^+ \mu^- << K^+ \rightarrow \mu^+ \nu_\mu
+
+explanation via another "c" quark charge +2/3, couples to s'
+
+The s-> u -> d and s -> c -> d contribution cancel, leading to the suppression of FCNC s-> d
+
+GIM mechanism: leading to discovery of charm quark
+
+
+- Can charge parity be conserved
+
+neutrino violate parity: they are only left handed
+
+but antineutrinos are right handed!
+
+does that mean C and P violations cancel to give CP conservation?
+
+
+- mixing and decay in neutral kaons
+
+
+- discovery of CP violation 1964
+
+3\pi kaon decay lives longer than 2\pi kaon decay, and are based on odd and even parity. we saw direct and indirect CP violation (3\pi oscillates to 2\pi and also decays straight to \2pi)
+
+
+- questions raised by discovery of CP violation
+
+small or large CP? approximate symmetry?
+
+is symmetry breaking spontaneous
+
+where does it come from? are ther eextra interactions?
+
+
+- measuring CP violation in decay and mxing
+
+goes through a bunch of different detectors (CMS, LHCb, BELLE-2, etc)
+
+
+- identifying the b quark: the b-jet
+
+b meson will travel small distance then decay (secondary vertex with "fat" jet)
+
+can also separate b and \bar{b} via tagging of their results
+
+
+- CP violation in decay: complex quantities needed
+
+CP violation: A(X \rightarrow Y) != A(\bar{X} \rightarrow \bar{Y})
+
+If all amplitudes are real |A(X-Y)|^2 = |A(\bar{X}-\bar{Y})|^2
+
+CP violation possible if complex numbers involved in above equation.
+
+cp violation \rightarrow amplitudes complex \rightarrow couplings complex
+
+
+- CP violation in mixing of neutral mesons
+B0 \rightarrow \bar{B0}
+

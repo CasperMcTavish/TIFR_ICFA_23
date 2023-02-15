@@ -1,0 +1,19 @@
+- What is the advantage of R5900 over conventional PMTs?
+
+Its dynode design allows for smaller pitch sizes and more discrete electron multiplication over smaller areas
+
+- What is the disadvantage of having a larger length of aerogel to have more number of photons?
+
+A larger amount of aerogel increases the chance of photoelectric absorption within the material, reducing the amount of photons detected.
+
+- Any option to increase the number of photons in this system keeping the geometrical area the same.
+
+improve the efficiency of the scintillating materials would be an easy option
+
+- What is the signal at the centre in fig9, sometimes it is double and sometimes no signal, explain the observation.
+
+there are two figures in the centre, but I must assume those within the centre of the cherenkov rings. I would assume that these are due to scattered photons or photons that are not emitted in a conal shape but are instead emitted directly at the rings. It could also be due to a mis-identification of rings in the setup causing a certain signals to be characterised as central rings.
+
+- Which wavelgnth is more suitable for the diffraction study in this setup
+
+Using the equations given in 3.3, i wouid assume you'd want longer wavelengths to allow for a larger distance between the first and zeroth minima. 

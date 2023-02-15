@@ -1,0 +1,103 @@
+
+
+*******************************************************************************
+Mon Feb 13 17:27:42 2023
+
+
+FIT:    data read from 'eng_vs_reso.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b/sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.0825732172e+01   0.00e+00  7.08e-01    1.000000e+00   1.000000e+00
+   5 7.2379644998e-06  -3.42e-05  7.08e-06   -6.059889e-03   2.602028e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 7.23796e-06
+rel. change during last iteration : -3.41755e-10
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000951181
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.04746e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.00605989      +/- 0.0008083    (13.34%)
+b               = 0.260203         +/- 0.01617      (6.216%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.928  1.000 
+
+
+*******************************************************************************
+Mon Feb 13 17:50:06 2023
+
+
+FIT:    data read from 'eng_vs_reso.txt'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Feb 13 17:50:51 2023
+
+
+FIT:    data read from "eng_vs_effi.txt"
+        format = z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b/x + c/x^2
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Feb 13 17:51:13 2023
+
+
+FIT:    data read from "eng_vs_effi.txt"
+        format = z
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a + b/x + c/(x*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.2980327582e+01   0.00e+00  5.77e-01    1.000000e+00   1.000000e+00   1.000000e+00
+   8 5.9904053577e-02  -4.64e-03  5.77e-09    1.152881e-01   6.480405e+02  -2.039631e+04
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.0599041
+rel. change during last iteration : -4.64269e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.09992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00998401
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.115288         +/- 0.09071      (78.68%)
+b               = 648.04           +/- 59.78        (9.225%)
+c               = -20396.3         +/- 6577         (32.25%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.904  1.000 
+c               0.821 -0.968  1.000 

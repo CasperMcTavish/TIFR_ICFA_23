@@ -1,0 +1,171 @@
+- Slides
+
+
+- Transport of ions in gases: drift and diffusion
+
+
+- Software and simulation tools.
+
+
+- Electric Fields: (nearly) exact boundary element method
+
+Lots of merits, and future projects for neBEM
+
+
+- Garfield ++ Package
+
+Can interface in GEANT, available from gitlab repository.
+
+
+- Single wire proportional counter: avalanche development
+
+Strong increase of e-field close to the wire.
+
+Electron energy high enough to ionise other gas molecules, producing new electrons causing an avalanche effect: exponential increase of electrons -> measurable signal on wire.
+
+
+- Ionisation cross sec: townsend coefficient
+
+\alpha (E)
+
+
+- Operation modes of gas detector: gain-voltage characteristics
+
+I -> ionisation mode, full charge collection but no multiplication - gain = 1
+
+II -> proportional mode, multiplication of ionisation starts; detected signal proportional to original ionisation. (gain 10^3 - 10^4)
+
+III -> limited proportional mode, saturation (gain > 10^6), independent of number of primary electrons
+
+IV -> Geiger mode, limited geiger region, avalanche propogated by UV photons (gain > 10^9), avalanche along the entire wire.
+
+
+- Wire proportional counter: singal development
+
+incremental charge induced by Q moving through dV
+
+\frac{q^-}{q^+} = \frac{ln(a + \lambda)}{} nonsense wrt b and a
+
+For counter with a = 10 \mu m, b = 10m: q^- / q^+ ~ 1\%, electron induced signal is negligible
+
+
+- Useful write-ups on gaseous detectors
+
+particle detection with drift chambers by springer
+
+
+- multi-wire proportional chamber (MWPC)
+
+First electronic device allowing high statistic experiments
+
+spatial resolution limited to s_x ~ s/sqrt(12) ~ 300 \mu m
+
+spatial resolution deterined by signal/noise ratio, space resolution < 100 \mu m
+
+
+- MWPC: wire displacements
+
+small wire displacements reduce field quality 
+
+
+- MWPC: first presentation and large experiment
+
+was in 1972- 1983
+
+
+- drift chambers
+
+electrons drift time provides the distance of the track from the anode, gives 3D resolution of detector.
+
+
+- Original gaseous detectors in LHC experiments
+
+inner trackers of ALTAS, LHCb and ALICE and in MUON tracks and triggers.
+
+
+- ALICE TPC 
+
+is largest one at CERN (uBooNE is much bigger)
+
+
+- Muon systems: resistive plate chambers (RPC)
+
+two resistive plates with a small gas gap and large high voltage on outside electrodes
+
+gas avalanche starting in gas gap (no wires involved)
+
+simple device, good to cover large areas, used as trigger devices in LHC
+
+choice of resistive material + surface quality crucial, affects "dark" trigger rate
+
+
+- ALICE MDT: resolution limits of high-rate wire chambers
+
+limited wire distance between one another due to effects of space-charge fluctuations.
+
+
+- Micro pattern gaseous detectors: bridging the gap for tracking between wire chambers and silicon-based devices
+
+advantages:
+low radiation growth
+moved too quick
+
+
+- micro-strip gas chamber
+
+significantly improves rate capability due to fast removal of positive ions
+
+
+- micro-strip gas chamber: discharge problems
+
+for efficient detection of minimum ionising tracks a gain of 5000 is needed
+
+no discharges with x-rays and electrons
+
+discharge probability is large - many per min (heavy ionising particles)
+
+
+RAETHERS LIMIT
+
+10^7 - 10^8 electrons will produce a spark within your avalanche. Cannot avoid sparking in gas detector without dealing with this.
+
+
+- MSGC in experiments
+
+
+- Aging phenomena in wire chambers
+
+whereas most ionisation processes require electron energies > 10eV, the breaking of chemical bonds and formation of free radicals requires ~ 3-4eV
+
+many original problems in high rate gas detectors were due to casual selection of chamber designs, gas mixtures, materials and gas system components, which worked at "low rates" but failed in high-rate environments
+
+
+- Gas electron multiplier (GEM)
+
+thin metal-coated polymer foil chemically pierces by a high density of holes
+
+primary electrons attracted to hole with high E-Field, then multiplied within field and dispersed.
+
+
+- Micro mesh gaseous structure (MICROMEGAS)
+
+gaseous chamber: micromesh supported by 50-10mm insulating pillars
+
+small gap: fast collection of ions
+
+
+- simulation tools and modelling of MPGDs
+
+There are a bunch
+
+
+- pixel readout of MPGDs: "GridPix" concept
+
+by means of advanced wafer processing-technology, INTEGRATE MICROMEGAS amplification grid directly on top of CMOS ASIC
+
+3D Gaseous pixel detector (gaseous and silicon in one).
+
+
+- Summary and conclusion
+
+

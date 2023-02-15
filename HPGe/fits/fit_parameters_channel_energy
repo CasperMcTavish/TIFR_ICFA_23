@@ -1,0 +1,12 @@
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -6.2239          +/- 0.03414      (0.5486%)
+b               = 0.190839         +/- 2.037e-05    (0.01068%)
+c               = 2.26784e-07      +/- 2.541e-09    (1.12%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.856  1.000 
+c               0.734 -0.971  1.000 
+
