@@ -34,7 +34,7 @@ data = np.delete(File_data, indices)
 print("Entries after zero suppression", len(data))
 
 # make the histogram with auto binning: Auto binning works the best
-counts, binEdges, patches = plt.hist(data, bins='auto')
+counts, binEdges, patches = plt.hist(data, bins=85)
 
 bin_count = len(binEdges)
 print("No of Bins:", bin_count)
@@ -58,6 +58,21 @@ print("Muon Lifetime:", t, "μs")
 # calculate the error in muon lifetime
 d_t = 100e-9 * perr[1] / b**2 * 1e6 #Get value in microsencods
 print("Error in Muon Lifetime:", d_t, "μs")
+
+# compare function plot with data
+bin_centres = (binEdges[:-1] + binEdges[1:]) / 2
+
+y_obs = []
+chi_square = []
+for i in range(len(bin_centres)):
+    y_obs.append(objective(bin_centres[i], a, b, c))
+    chi_square.append((y_obs[i] - counts[i])**2 / y_obs[i]) # this is wrong
+
+chi_square_total = np.sum(np.square(chi_square))
+NDF = bin_count - 3
+chi_square_NDF = chi_square_total / NDF
+
+print("Chi square NDF: ", chi_square_NDF)
 
 # plot the fit curve
 # calculate the output for the range
